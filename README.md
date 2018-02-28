@@ -1,0 +1,17 @@
+# iOS Bucket List Mini-App: "iTask"
+
+Team Members: Jiahong Chen (jc4tf), Ruolin Xiong (rx5zv)
+
+### Basic Instructions on Usage
+When the app launches, a list of bucket-list items appears with dates and corresponding dates that they need to be completed by. The tasks/items are sorted by completion date. To mark a task as completed, swipe right to left, which gives a button that registers the item as complete, and the item is moved to the bottom of the list. To add a new bucket-list item, tap the + button, which launches the Add New Item scene. To edit information of the bucket-list item, tap the Edit button, which opens the Edit Item scene. To save changes made to the bucket-list item, tap the “Save” button. To exit back to the main screen without saving changes, tap the “Cancel” button in the upper left corner. This app rotates if the screen is tilted. Other than the basic requirements, we add one more button, "delete", when swiping right to left which would delete the item in the cell from the list.
+
+### Learnings
+Since iOS is totally new to both of us, we learned a lot about iOS through this project. Not only did we learn Swift for the first time, we also learned many things such as iOS concepts that are different from android, specific iOS classes, and navigating XCode. 
+
+One iOS concept that was useful is segues. Using segues, we were able to write activities while not having to worry about the way they interacted with particular instances of other activities. Another thing we learned is the specific iOS classes. Similar to the Android project, it was helpful that we are able to adapt various pre-existing iOS layouts and views into our own functional app. Having these iOS layouts and views that could be used in the storyboard and CocoaTouch files allowed us to add cool aspects that we wouldn’t be able to otherwise. However, with large number of pre-exiting classes and methods sometimes, it was sometimes difficult to understand how everything works together. For example, when unwinding a segue, it took us a while to understand the relation between the function and what the list functionality the function performs. 
+
+XCode itself also has a big learning curve. For example, it took a while to get used to dragging arrows from the storyboard to the code and unwinding a seque. Although in the lecture we learned the way to do segue by dragging an arrow from a button, etc., from this homework we also learned that a view could also help to achieve this goal. Additionally, it was unclear where we can view log messages at first. This made build issues take longer to resolve. Another annoying thing was dealing with issues with iOS versions and some special syntax in Swift. Though Xcode would automatically correct the syntax, the usage of question mark and exclamation mark is still confusing.  
+
+Most of the issues discussed were because we were not familiar with XCode, Swift, and how to actually put iOS concepts into functional code. After becoming more familiar with the build tools, we were able to resolve most of our issues. The in-class demos were helpful in seeing how to actually apply iOS concepts to working code, and we wish there could be more examples. At the end of the project, we feel that this project helped in understanding iOS development. In the future, with more practice, we are confident that we will not run into the issues we had or will be able to debug more easily. 
+
+
